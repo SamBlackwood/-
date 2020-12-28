@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+/* header */
+nav{
+    background-color: rgb(245, 244, 244);   
+    padding-top: 20px;
+}
+.nav1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+nav ul, ol{
+    list-style: none;
+    padding: 0%;
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+nav ul li{
+    margin: 0px 20px;
+}
+nav ol li{
+    margin: 0px 9px;
+}
+nav ul li a, ol li a{
+    text-decoration: none;
+    color: gray;
+}
+nav ul li a i{
+    color: red;
+}
+.nav2{
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav2 div ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.nav2 div ul li{
+    margin: 0px 20px;
+}
+.nav2 div ul li a{
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+}
+.bg_title{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 130px 0px;
+}
+
+/* main */
+main{
+    padding: 30px 50px;
+}
+main section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.map{
+    text-align: center;
+    padding: 50px 0px;
+}
+.lt_side{
+    width: 670px;
+}
+.lt_side .inner{
+    display: inline-flex;
+}
+.lt_side .inner div{
+    margin-right: 20px;
+}
+.lt_side .inner div input{
+    width: 325px;
+}
+.lt_side input{
+    padding: 5px 10px;
+}
+.lt_side div button{
+    background-color: red;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.sub input{
+    width: 100%;
+}
+.rt_side_inner div div i{
+    font-size: 30px;
+    color: gray;
+    margin: 0px 5px;
+}
+.rt_side_inner .rt_side{
+    display: flex;
+}
+.rt_side_inner .rt_side div h5{
+    margin: 0%;
+}
+
+/* footer */
+footer{
+    background-color: rgb(22, 22, 22);
+}
+.footer_inner div h1{
+    color: #eee;
+}
+.footer_inner{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px 40px;
+    justify-content: space-between;
+}
+.footer_inner div hr{
+    color: lightgray;
+}
+.ul_inner{
+    display: flex;
+}
+.ul_inner div ul{
+    list-style: none;
+    list-style: none;
+    padding: 0%;
+}
+.ul_inner div ul li a{
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+}
+.ul_inner div ul li{
+    margin: 0px 20px 20px 0px;
+    color: rgb(143, 143, 143);
+}
+.ul_inner div ul li a:hover{
+    color: #fff;
+}
+.footer_inner hr{
+    border-color: rgb(143, 143, 143);
+    margin: 30px 0px;
+}
+.footer_inner h3{
+    color: #fff;
+}
+.sub_inner input{
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(32, 32, 32);
+    color: rgb(143, 143, 143);
+}
+.sub_inner button{
+    background-color: red;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+}
+.sub_inner{
+    width: 550px;
+}
+.sub_inner p{
+    margin: 20px 0px;
+    color: rgb(143, 143, 143);
+}
+.sub_inner p a{
+    color: red;
+}
+footer .end{
+    background-color: #000;
+    padding: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (max-width: 1255px){
+
+    .map iframe{
+        width: 800px;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+
+    .lt_side{
+        text-align: center;
+    }
+    .rt_side_inner{
+        display: inherit;
+        margin: 50px 0px;
+    }
+
+}
+
+@media screen and (max-width: 918px){
+
+    .map iframe{
+        width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 820px){
+
+    .map iframe{
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 741px){
+
+    .map iframe{
+        width: auto;
+    }
+    .nav2{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 712px){
+
+    .lt_side{
+        width: auto;
+    }
+    .lt_side .inner div input{
+        width: auto;
+    }
+    .sub input{
+        width: auto;
+    }
+    .rt_side_inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
